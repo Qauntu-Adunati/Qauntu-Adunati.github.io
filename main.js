@@ -15,6 +15,7 @@ function changeVariable(){
 function clearText()
 {
     document.getElementById('Name').value = "";
+  myName = "Please enter a name above";
 
 }
 var letterColors = [red, orange, green, blue, purple];
