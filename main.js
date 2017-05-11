@@ -18,7 +18,8 @@ function clearText()
 
   //Clearing the whole canvas because the above method is not working 
   context.clearRect(0, 0, canvas.width, canvas.height);
-
+  myName = "";
+ drawName(myName, letterColors);
 }
 var letterColors = [red, orange, green, blue, purple];
 bubbleShape= "circle";
