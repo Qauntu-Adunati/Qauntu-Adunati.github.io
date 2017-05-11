@@ -15,11 +15,7 @@ function changeVariable(){
 function clearText()
 {
     document.getElementById('Name').value = "";
-<<<<<<< HEAD
-  myName = "";
-=======
-  myName = "Please enter a name above";
->>>>>>> origin/master
+
   //Clearing the whole canvas because the above method is not working 
   context.clearRect(0, 0, canvas.width, canvas.height);
 
