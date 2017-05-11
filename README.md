@@ -1,1 +1,1 @@
-# Qauntu-Adunati.github.io
+# Quantu-Adunati.github.io

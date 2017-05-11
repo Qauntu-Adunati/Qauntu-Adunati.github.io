@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
   <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -8,6 +8,8 @@
     <script type="text/javascript" src="alphabet.js"></script>
   </head>
   <body>
+    
+    <div class="radial-gradient"></div>
  <center><!--<label>
                 <input type="radio" name="group1" value="circle" onClick="changeShape('circle')" checked="checked" />
                 Circles
@@ -27,22 +29,30 @@
                 Triangles
             </label><br/>-->
 
-            Enter your name:<br>
+           
 
-             <input type="text" id ="Name" name="input"><br>
-             <input name="buttonPress"  type="button" value="Submit" onclick="changeVariable();" />
-              <input type="reset" value="Reset" onclick="clearText()" />
+     <form>
+         
+         <!-- Added the placeholder to the input-->
+         <input type="text" id="Name" name="input" placeholder="Enter your name here" /><br>
+         <input name="buttonPress" type="button" value="Submit" onclick="changeVariable();" />
+         <input type="reset" value="Reset" onclick="clearText()" /><br><br />
+     </form>
 
-
+      
 
 <form>
  <div class="radio-group">
-<input type="radio" id="option-one" name="selector" onClick="changeShape('circle')"><label for="option-one">Circles </label><input type="radio" id="option-two" name="selector" onClick="changeShape('square')"><label for="option-two">Squares</label><input type="radio" id="option-three" name="selector" onClick="changeShape('heart')"><label for="option-three">Hearts</label>
-<input type="radio" id="option-four" name="selector" onClick="changeShape('glowing')"><label for="option-four">Glowing Effect</label><input type="radio" id="option-five" name="selector" onClick="changeShape('triangle')"><label for="option-five">Triangles</label>
+<input type="radio" id="option-one" name="selector" onClick="changeShape('circle')"><label for="option-one">Circles </label>
+     <input type="radio" id="option-two" name="selector" onClick="changeShape('square')"><label for="option-two">Squares</label>
+     <input type="radio" id="option-three" name="selector" onClick="changeShape('heart')"><label for="option-three">Hearts</label>
+    <input type="radio" id="option-four" name="selector" onClick="changeShape('glowing')"><label for="option-four">Glowing Effect</label>
+     <input type="radio" id="option-five" name="selector" onClick="changeShape('triangle')"><label for="option-five">Triangles</label>
 
   </div>
    </form>
-</center>
+     </center>
+
         <!--  <center>  <div class="wrap">
 
 

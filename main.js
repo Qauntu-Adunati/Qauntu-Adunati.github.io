@@ -4,7 +4,7 @@ var green = [75, 100, 40];
 var blue = [196, 77, 55];
 var purple = [280, 50, 60];
 
-var myName = "Please enter a name above";
+var myName = "";
 
 function changeVariable(){
   myName =document.getElementById('Name').value;
@@ -15,6 +15,9 @@ function changeVariable(){
 function clearText()
 {
     document.getElementById('Name').value = "";
+  myName = "";
+  //Clearing the whole canvas because the above method is not working 
+  context.clearRect(0, 0, canvas.width, canvas.height);
 
 }
 var letterColors = [red, orange, green, blue, purple];

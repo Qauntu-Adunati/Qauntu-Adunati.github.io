@@ -1,41 +1,42 @@
-$bg: #332f35;
-$fg: darken($bg,50%);
-$borderWidth: 6px;
 @import url('http://fonts.googleapis.com/css?family=Roboto');
+@charset "UTF-8";
 
 body {
-  background: $bg;
+  background: radial-gradient(circle,black,darkgrey);
   font-family: roboto;
+  
 }
+
 
 input[type=radio] {
   position: absolute;
-  visibility: visible;;
+  visibility: visible;
   display: none;
 }
 
 label {
-  color: lighten($bg,40%);
-  display: inline-block;
+  color: white;
+  display:  inline-block;
   cursor: pointer;
   font-weight: bold;
-  padding: 5px 20px;
+  padding: 5px 30px;
 }
 
 input[type=radio]:checked + label{
-  color: lighten($bg,60%);
-  background: $fg;
+  color:cornflowerblue;
+  background: none;
 }
 
 label + input[type=radio] + label {
-  border-left: solid $borderWidth $fg;
-  border-top: solid $borderWidth $fg;
+  border-left:  medium ;
+  
 
   }
 .radio-group {
-  border: solid $borderWidth $fg;
-  display: inline;;
+  border: solid ;
+  display: inline;
   margin: 20px;
   border-radius: 10px;
-  overflow: visible;;
+  overflow: visible;
 }
+
