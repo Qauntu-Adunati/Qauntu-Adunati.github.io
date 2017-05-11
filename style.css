@@ -6,8 +6,20 @@ body {
   font-family: roboto;
   
 }
+.radial-gradient{
+  
+ background: radial-gradient (circle ,red,black,blue,white)
 
+<<<<<<< HEAD
 
+=======
+  }
+
+.radial-gradient{
+    width:200px;
+    height:100px;
+}
+>>>>>>> origin/master
 input[type=radio] {
   position: absolute;
   visibility: visible;
