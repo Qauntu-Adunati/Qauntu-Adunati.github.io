@@ -42,30 +42,5 @@ function changeShape(name){
 }
 
 
-
-
-
-/*if(10 <10) {
-   bubbleShape = "circle";
-}
-
-else if (20==20){
-
-  bubbleShape= "triangle";
-}
-
-
-else {
-    bubbleShape = "square";
-}*/
-// from - http://cssdeck.com/labs/ql8jmgjt
-
-/*function updateLog() {
-  var one = $("#opt_1:checked").val() ? "On" : "Off"
-  var two = $("#opt_2:checked").val() ? "On" : "Off"
-  $(".log").html("PLease: " + one + "<br/>Work: " + two)
-}
-
-$(".radio-group__option").change(updateLog)*/
  drawName(myName, letterColors);
  bounceBubbles()
