@@ -16,6 +16,8 @@ function clearText()
 {
     document.getElementById('Name').value = "";
   myName = "Please enter a name above";
+  //Clearing the whole canvas because the above method is not working 
+  context.clearRect(0, 0, canvas.width, canvas.height);
 
 }
 var letterColors = [red, orange, green, blue, purple];
