@@ -6,9 +6,18 @@ $borderWidth: 6px;
 body {
   background: $bg;
   font-family: roboto;
-  background: radial-gradient (circle ,black, white)
+  
 }
+.radial-gradient{
+  
+ background: radial-gradient (circle ,red,black,blue,white)
 
+  }
+
+.radial-gradient{
+    width:200px;
+    height:100px;
+}
 input[type=radio] {
   position: absolute;
   visibility: visible;;
