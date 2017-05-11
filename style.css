@@ -2,23 +2,11 @@
 @charset "UTF-8";
 
 body {
-  background: radial-gradient(circle,black,darkgrey);
+  background: radial-gradient(circle,black,grey);
   font-family: roboto;
   
 }
-.radial-gradient{
-  
- background: radial-gradient (circle ,red,black,blue,white)
 
-
-  }
-
-  
-
-.radial-gradient{
-    width:200px;
-    height:100px;
-}
 
 input[type=radio] {
   position: absolute;
