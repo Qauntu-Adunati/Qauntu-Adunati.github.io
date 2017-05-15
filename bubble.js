@@ -135,14 +135,14 @@ function Point(x, y, z, size, color) {
     ctx.fill();
 
           }else if (bubbleShape == "heart") {
-  ctx.beginPath();
+ ctx.beginPath();
   ctx.moveTo(this.curPos.x + dx + 0.8655 * this.radius, this.curPos.y + dy + 0.462 * this.radius);
-  ctx.bezierCurveTo(this.curPos.x + dx + 2.8655 * this.radius, this.curPos.y + dy + 0.4275 * this.radius, this.curPos.x + dx + 0.807 * this.radius, this.curPos.y + dy + 0.288 * this.radius, this.curPos.x + dx + 0.5775 * this.radius, this.curPos.y + dy + 0.288 * this.radius);
-  ctx.bezierCurveTo(this.curPos.x + dx + 2.231 * this.radius, this.curPos.y + dy + 0.288 * this.radius, this.curPos.x + dx + 0.231 * this.radius, this.curPos.y + dy + 0.721 * this.radius, this.curPos.x + dx + 0.231 * this.radius, this.curPos.y + dy + 0.721 * this.radius);
-  ctx.bezierCurveTo(this.curPos.x + dx + 2.231 * this.radius, this.curPos.y + dy + 0.923 * this.radius, this.curPos.x + dx + 0.462 * this.radius, this.curPos.y + dy + 1.177 * this.radius, this.curPos.x + dx + 0.8655 * this.radius, this.curPos.y + dy + 1.385 * this.radius);
+  ctx.bezierCurveTo(this.curPos.x + dx + 0.8655 * this.radius, this.curPos.y + dy + 0.4275 * this.radius, this.curPos.x + dx + 0.807 * this.radius, this.curPos.y + dy + 0.288 * this.radius, this.curPos.x + dx + 0.5775 * this.radius, this.curPos.y + dy + 0.288 * this.radius);
+  ctx.bezierCurveTo(this.curPos.x + dx + 0.231 * this.radius, this.curPos.y + dy + 0.288 * this.radius, this.curPos.x + dx + 0.231 * this.radius, this.curPos.y + dy + 0.721 * this.radius, this.curPos.x + dx + 0.231 * this.radius, this.curPos.y + dy + 0.721 * this.radius);
+  ctx.bezierCurveTo(this.curPos.x + dx + 0.231 * this.radius, this.curPos.y + dy + 0.923 * this.radius, this.curPos.x + dx + 0.462 * this.radius, this.curPos.y + dy + 1.177 * this.radius, this.curPos.x + dx + 0.8655 * this.radius, this.curPos.y + dy + 1.385 * this.radius);
   ctx.bezierCurveTo(this.curPos.x + dx + 1.269 * this.radius, this.curPos.y + dy + 1.177 * this.radius, this.curPos.x + dx + 1.5 * this.radius, this.curPos.y + dy + 0.923 * this.radius, this.curPos.x + dx + 1.5 * this.radius, this.curPos.y + dy + 0.721 * this.radius);
   ctx.bezierCurveTo(this.curPos.x + dx + 1.5 * this.radius, this.curPos.y + dy + 0.721 * this.radius, this.curPos.x + dx + 1.5 * this.radius, this.curPos.y + dy + 0.288 * this.radius, this.curPos.x + dx + 1.154 * this.radius, this.curPos.y + dy + 0.288 * this.radius);
-  ctx.bezierCurveTo(this.curPos.x + dx + 2.9808 * this.radius, this.curPos.y + dy + 0.288 * this.radius, this.curPos.x + dx + 0.8655 * this.radius, this.curPos.y + dy + 0.4275 * this.radius, this.curPos.x + dx + 0.8655 * this.radius, this.curPos.y + dy + 0.462 * this.radius);
+  ctx.bezierCurveTo(this.curPos.x + dx + 0.9808 * this.radius, this.curPos.y + dy + 0.288 * this.radius, this.curPos.x + dx + 0.8655 * this.radius, this.curPos.y + dy + 0.4275 * this.radius, this.curPos.x + dx + 0.8655 * this.radius, this.curPos.y + dy + 0.462 * this.radius);
   ctx.fill();
 }else if(bubbleShape == "glowing"){
 
