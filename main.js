@@ -11,6 +11,20 @@ function changeVariable(){
   drawName(myName, letterColors);
 
 }
+//This is to hide the picture and show it again 
+var click = false;
+$('#RICH').hide();
+function showThem() {
+    
+    if (click) {
+        $('#RICH').hide("slow");
+        click = false;
+    } else if (!click) {
+        $('#RICH').show("fast");
+        click = true;
+    }
+    
+  }
 
 function clearText()
 {
