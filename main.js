@@ -1,8 +1,26 @@
-var red = [0, 100, 63];
+//Random colour generator 
+//Still not working when I try to implement it 
+function colorGenerator()
+{
+  var colorCode ='#'+Math.floor(Math.random()*16777215).toString(16);
+}
+
+//
+//Assigning the function to variables
+//I know this is inefficient but I am using this method for debugging purposes
+var color1 =colorGenerator;
+var color2 =colorGenerator;
+var color3 = colorGenerator;
+var color4 = colorGenerator;
+var color5 = colorGenerator;
+var color6 = colorGenerator;
+
+
+/*var red = [0, 100, 63];
 var orange = [25, 100, 60];
 var green = [75, 100, 40];
 var blue = [196, 77, 55];
-var purple = [280, 50, 60];
+var purple = [280, 50, 60];*/
 
 var myName = "";
 
@@ -35,7 +53,7 @@ function clearText()
   myName = "";
  drawName(myName, letterColors);
 }
-var letterColors = [red, orange, green, blue, purple];
+var letterColors =[color1,color2,color3,color4,color5,color6]; //[red, orange, green, blue, purple];
 bubbleShape= "circle";
 
 function changeShape(name){
