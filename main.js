@@ -18,14 +18,8 @@
         color += ']'; */
         var seed= 1;
          var x = Math.sin(seed++) * 10000;
-        color = '[';
-        color += Math.floor(Math.random(x) * 255) + 0;
-        color += ", ";
-        color += Math.floor(Math.random(x) * 255) + 0;
-        color += ", ";
-        color += Math.floor(Math.random(x) * 255) + 0;
-        color += ']';
-    
+        var color =  Math.floor(Math.random(x) * 255) + 0;
+              
         return color;
     }
 /*  //Trying to seed the random function to generate random hex numbers
@@ -36,14 +30,13 @@
 //
 //Assigning the function to variables
 //I know this is inefficient but I am using this method for debugging purposes
-var color1 =colorGenerator;
-var color2 =colorGenerator;
-var color3 = colorGenerator;
-var color4 = colorGenerator;
-var color5 = colorGenerator;
-var color6 = colorGenerator;
-window.print(color1);
-window.print(color2);
+var color1 =[colorGenerator,colorGenerator,colorGenerator];
+var color2 =[colorGenerator,colorGenerator,colorGenerator];;
+var color3 = [colorGenerator,colorGenerator,colorGenerator];;
+var color4 = [colorGenerator,colorGenerator,colorGenerator];;
+var color5 = [colorGenerator,colorGenerator,colorGenerator];;
+var color6 = [colorGenerator,colorGenerator,colorGenerator];;
+
 
 
 /*var red = [0, 100, 63];
