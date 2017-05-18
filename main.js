@@ -2,8 +2,12 @@
 //Still not working when I try to implement it 
 function colorGenerator()
 {
+  /*
   var seedBasedVariable = Math.sin(seed++) * 16777215 //10000;
-  var colorCode ='#'+Math.floor(Math.random(seedbasedVariable)*16777215).toString(16);
+  var colorCode ='#'+Math.floor(Math.random(seedbasedVariable)*16777215).toString(16);*/
+  
+  //Trying to seed the random function to generate random hex numbers
+  Math.floor((Math.abs(Math.sin(seed) * 16777215)) % 16777215).toString(16);
 }
 
 //
