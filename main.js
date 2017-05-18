@@ -7,6 +7,7 @@
   var colorCode ='#'+Math.floor(Math.random(seedbasedVariable)*16777215).toString(16);
   */
   function colorGenerator() {
+    /*
         var letters = '0123456789ABCDEF'.split('');
         var color = '[';
         for (var i = 0; i < 6; i++ ) {
@@ -14,7 +15,17 @@
             if ((i % 2) == 0)
               color += ", ";
         }
+        color += ']'; */
+        var seed= 1;
+         var x = Math.sin(seed++) * 10000;
+        color = '[';
+        color += Math.floor(Math.random(x) * 255) + 0;
+        color += ", ";
+        color += Math.floor(Math.random(x) * 255) + 0;
+        color += ", ";
+        color += Math.floor(Math.random(x) * 255) + 0;
         color += ']';
+    
         return color;
     }
 /*  //Trying to seed the random function to generate random hex numbers
