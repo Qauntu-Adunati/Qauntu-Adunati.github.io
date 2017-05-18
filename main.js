@@ -15,7 +15,7 @@ function colorGenerator()
         return color;
     }*/
   //Trying to seed the random function to generate random hex numbers
-  var colorCode =Math.floor((Math.abs(Math.sin(seed) * 16777215)) % 16777215).toString(16);
+  var colorCode = '#'+ Math.floor((Math.abs(Math.sin(seed) * 16777215)) % 16777215).toString(16);
   return colorCode;
 }
 
