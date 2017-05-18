@@ -2,7 +2,7 @@
 //Still not working when I try to implement it 
 function colorGenerator()
 {
-  var seedBasedVariable = Math.sin(seed++) * 10000;
+  var seedBasedVariable = Math.sin(seed++) * 16777215 //10000;
   var colorCode ='#'+Math.floor(Math.random(seedbasedVariable)*16777215).toString(16);
 }
 
