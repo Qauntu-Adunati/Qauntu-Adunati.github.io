@@ -8,10 +8,13 @@
   */
   function colorGenerator() {
         var letters = '0123456789ABCDEF'.split('');
-        var color = '#';
+        var color = '[';
         for (var i = 0; i < 6; i++ ) {
             color += letters[Math.round(Math.random() * 15)];
+            if ((i % 2) == 0)
+              color += ", ";
         }
+        color += ']';
         return color;
     }
 /*  //Trying to seed the random function to generate random hex numbers
