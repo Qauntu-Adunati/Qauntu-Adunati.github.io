@@ -42,6 +42,8 @@ var color3 = colorGenerator;
 var color4 = colorGenerator;
 var color5 = colorGenerator;
 var color6 = colorGenerator;
+window.print(color1);
+window.print(color2);
 
 
 /*var red = [0, 100, 63];
