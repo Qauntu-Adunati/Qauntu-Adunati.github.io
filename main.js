@@ -4,10 +4,19 @@ function colorGenerator()
 {
   /*
   var seedBasedVariable = Math.sin(seed++) * 16777215 //10000;
-  var colorCode ='#'+Math.floor(Math.random(seedbasedVariable)*16777215).toString(16);*/
+  var colorCode ='#'+Math.floor(Math.random(seedbasedVariable)*16777215).toString(16);
   
+  function getRandomColor() {
+        var letters = '0123456789ABCDEF'.split('');
+        var color = '#';
+        for (var i = 0; i < 6; i++ ) {
+            color += letters[Math.round(Math.random() * 15)];
+        }
+        return color;
+    }*/
   //Trying to seed the random function to generate random hex numbers
-  Math.floor((Math.abs(Math.sin(seed) * 16777215)) % 16777215).toString(16);
+  var colorCode =Math.floor((Math.abs(Math.sin(seed) * 16777215)) % 16777215).toString(16);
+  return colorCode;
 }
 
 //
