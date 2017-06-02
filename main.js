@@ -75,7 +75,7 @@ function clearText()
   myName = "";
  drawName(myName, letterColors);
 }
-var letterColors =[color1,color2,color3,color4,color5,color6]; //[red, orange, green, blue, purple];
+var letterColors =[red, orange, green, blue, purple];
 bubbleShape= "circle";
 
 function changeShape(name){
