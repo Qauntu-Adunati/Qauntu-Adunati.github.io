@@ -5,9 +5,9 @@
   
   var seedBasedVariable = Math.sin(seed++) * 16777215 //10000;
   var colorCode ='#'+Math.floor(Math.random(seedbasedVariable)*16777215).toString(16);
-  */
+  
   function colorGenerator() {
-    /*
+    
         var letters = '0123456789ABCDEF'.split('');
         var color = '[';
         for (var i = 0; i < 6; i++ ) {
@@ -15,16 +15,16 @@
             if ((i % 2) == 0)
               color += ", ";
         }
-        color += ']'; */
+        color += ']'; 
         var seed= 1;
          var x = Math.sin(seed++) * 10000;
         var color =  Math.floor(Math.random(x) * 255) + 0;
               
         return color;
     }
-/*  //Trying to seed the random function to generate random hex numbers
+ //Trying to seed the random function to generate random hex numbers
   var colorCode = '#'+ Math.floor((Math.abs(Math.sin(seed) * 16777215)) % 16777215).toString(16);
-  return colorCode;*/
+  return colorCode;
 
 
 //
@@ -37,13 +37,12 @@ var color4 = [colorGenerator,colorGenerator,colorGenerator];;
 var color5 = [colorGenerator,colorGenerator,colorGenerator];;
 var color6 = [colorGenerator,colorGenerator,colorGenerator];;
 
-
-
-/*var red = [0, 100, 63];
+*/
+var red = [0, 100, 63];
 var orange = [25, 100, 60];
 var green = [75, 100, 40];
 var blue = [196, 77, 55];
-var purple = [280, 50, 60];*/
+var purple = [280, 50, 60];
 
 var myName = "";
 
