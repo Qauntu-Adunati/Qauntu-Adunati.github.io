@@ -46,6 +46,7 @@ var purple = [280, 50, 60];
 var letterColors =[red, orange, green, blue, purple];
 
 var myName = "";
+bubbleShape= "circle";
 
 function changeVariable(){
   myName =document.getElementById('Name').value;
@@ -77,7 +78,7 @@ function clearText()
  drawName(myName, letterColors);
 }
 
-bubbleShape= "circle";
+
 
 function changeShape(name){
   if (name == "circle") {
